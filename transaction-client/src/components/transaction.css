@@ -1,0 +1,85 @@
+.transaction-container {
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-input, .month-select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.transaction-table th, .transaction-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.transaction-table th {
+    background-color: #f0c859;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #f0c859;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+.transaction-container {
+  position: absolute;
+  top: 150px;
+}
+
+.statistics-section {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.transaction-table {
+  width: 100%;
+
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.search-input,
+.month-select {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+}
+
